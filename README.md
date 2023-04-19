@@ -6,4 +6,4 @@ A template for Phaser 3 using Parcel and Browser Sync
 
 1. Install ```npm install```
 2. Build ```npm run build```
-3. Start ```npm start```
+3. In a separate terminal, start ```npm start```
