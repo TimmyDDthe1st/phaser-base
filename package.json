@@ -1,0 +1,18 @@
+{
+  "name": "phaser-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/parcel watch src/game.js",
+    "start": "./node_modules/.bin/browser-sync start --server '.' --files '.'"
+  },
+  "author": "Tim Douglas",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.29.1",
+    "parcel-bundler": "^1.12.5",
+    "phaser": "^3.60.0"
+  }
+}
